@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/DabeeoSelectClass.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        new DabeeoSelectClass("test");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="top">테스트</div>
+    <select id="test" width="300px" multiple>
+      <option value="1">🍖</option>
+      <option value="2">🥩</option>
+      <option value="3">🌭</option>
+      <option value="4" selected>🍔</option>
+      <option value="5">🧇</option>
+    </select>
+    <div>테스트2222</div>
+  </body>
+</html>
